@@ -1,0 +1,24 @@
+{
+    "name": "onilopic/parenthesis-checker-cli",
+    "description": "CLI app used parenthesis-checker",
+    "type": "project",
+    "require": {
+        "onilopic/parenthesis-checker": "dev-main",
+        "symfony/console": "^6.1"
+    },
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Onilopic\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Harry Lukinykh"
+        }
+    ]
+}
